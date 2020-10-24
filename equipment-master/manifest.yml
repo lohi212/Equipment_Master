@@ -1,0 +1,9 @@
+applications:
+-  name: equipmentmastr
+   memory: 1G
+   path: target/equipment-master.war
+   random-route: false
+   buildpack: https://github.com/cloudfoundry/java-buildpack.git
+   services:
+   - em-dev
+   
